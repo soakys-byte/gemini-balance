@@ -1,0 +1,16 @@
+{
+  "name": "ai-pulse",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build && node scripts/copy-assets.mjs",
+    "start": "vite preview --host 0.0.0.0 --port ${PORT:-4173}"
+  },
+  "dependencies": {
+    "globe.gl": "2.45.0"
+  },
+  "devDependencies": {
+    "vite": "5.4.14"
+  }
+}
