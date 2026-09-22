@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <meta name="theme-color" content="#02050a" />
+  <title>AI 脉冲 · 全球人工智能情报网络</title>
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+  <div id="stars"></div>
+  <div id="globe"></div>
+  <div class="vignette"></div>
+  <div class="scanlines"></div>
+  <div class="scan-beam"></div>
+  <header class="top hud">
+    <div class="brand"><div class="eyebrow">NEXUS // GLOBAL SIGNAL MESH</div><h1>AI 脉冲</h1><p>全球人工智能情报网络</p></div>
+    <div class="pulse"><div class="pulse-title">全球 AI 心跳 <b id="pulseVal">86.4</b><span>↑ 12.7%</span></div><svg viewBox="0 0 520 32" preserveAspectRatio="none"><polyline points="0,17 32,17 45,16 54,5 64,28 76,16 112,17 139,17 149,10 158,23 168,16 205,17 234,17 245,7 256,26 267,16 307,17 338,17 347,12 356,21 366,16 402,17 430,17 441,5 452,28 463,16 520,17"/></svg></div>
+    <div class="metrics"><div><b id="signalCount">148</b><span>24H 信号</span></div><div><b>28</b><span>活跃区域</span></div><div><b>3</b><span>重大事件</span></div></div>
+  </header>
+  <aside class="filters hud"><div class="label">情报分类</div><div id="filters"></div><div class="activity"><div class="label">全球活跃度</div><strong id="activity">86</strong><p>全球主要 AI 中心<br>信号密度持续增强</p></div></aside>
+  <div class="search hud"><span>⌕</span><input id="search" placeholder="搜索城市 / 国家 / 事件 / 分类" /></div>
+  <section class="feed hud"><div class="feed-head"><b>关键情报信号</b><span>LIVE STREAM</span></div><div id="feed"></div></section>
+  <div class="timeline hud"><div class="ranges" id="ranges"><button data-min="15">实时</button><button data-min="60">1 小时</button><button data-min="360">6 小时</button><button class="on" data-min="1440">24 小时</button><button data-min="10080">7 天</button></div><div class="track"></div><div class="clock"><b id="clock">--:--:--</b><span>北京时间 · GLOBAL STREAM</span></div></div>
+  <div class="version">3D EARTH · LOCAL ASSETS · V3</div>
+  <div class="detail" id="detail"><button class="close" id="close">×</button><div class="detail-meta" id="detailMeta"></div><h2 id="detailTitle"></h2><p id="detailText"></p><div class="detail-bars"><div><label>影响力 <b id="impactNum"></b></label><i><span id="impactBar"></span></i></div><div><label>可信度 <b id="trustNum"></b></label><i><span id="trustBar"></span></i></div></div></div>
+</body>
+</html>
